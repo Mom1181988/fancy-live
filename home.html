@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فانسي لايف - تطبيق الدردشة الصوتية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background: #f0f2f5;
+            color: #333;
+        }
+
+        .main-header {
+            background: #2196F3;
+            padding: 15px 30px;
+            color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .main-header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background-image: linear-gradient(to bottom, #2196F3, #64B5F6);
+            padding: 50px 30px;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .cta-buttons {
+            margin-top: 20px;
+        }
+
+        .download-btn {
+            background: #ff4444;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .download-btn:hover {
+            background: #ff0000;
+        }
+
+        .features {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .feature-card i {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .download {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .download-buttons {
+            margin-top: 20px;
+        }
+
+        .download-btn.large {
+            padding: 12px 25px;
+            font-size: 18px;
+        }
+
+        .contact {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-links a {
+            margin: 10px;
+        }
+
+        footer {
+            background: #2196F3;
+            padding: 15px 30px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <div class="logo">
+                <h1>فانسي لايف</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#features">المميزات</a>
+                <a href="#download">تحميل التطبيق</a>
+                <a href="#contact">تواصل معنا</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>فانسي لايف</h1>
+                <p>استمتع بتجربة دردشة صوتية فريدة مع أشخاص من جميع أنحاء العالم</p>
+                <div class="cta-buttons">
+                    <a href="#" class="download-btn"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="#" class="download-btn"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>مميزات التطبيق</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>دردشة صوتية عالية الجودة</h3>
+                    <p>استمتع بمحادثات صوتية نقية وواضحة</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>غرف متعددة</h3>
+                    <p>انضم إلى غرف متنوعة أو أنشئ غرفتك الخاصة</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>هدايا وتفاعلات</h3>
+                    <p>أرسل وتلقى الهدايا والتفاعلات المميزة</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>أمان وخصوصية</h3>
+                    <p>حماية كاملة لخصوصيتك وبياناتك</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2>حمل التطبيق الآن</h2>
+            <p>متوفر على جميع المنصات</p>
+            <div class="download-buttons">
+                <a href="#" class="download-btn large"><i class="fab fa-google-play"></i> Google Play</a>
+                <a href="#" class="download-btn large"><i class="fab fa-apple"></i> App Store</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>تواصل معنا</h2>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024 فانسي لايف</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
